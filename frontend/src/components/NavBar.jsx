@@ -6,7 +6,9 @@ function Navbar() {
   return (
     <nav>
       <div>
-        <img src={XLogo} alt="X Logo"></img>
+        <Link to="/">
+          <img src={XLogo} alt="X Logo"></img>
+        </Link>
       </div>
 
       <ul>
@@ -14,10 +16,10 @@ function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">Notifications</Link>
+          <Link to="/notifications">Notifications</Link>
         </li>
         <li>
-          <Link to="/contact">Profile</Link>
+          <Link to="/profile">Profile</Link>
         </li>
       </ul>
     </nav>
