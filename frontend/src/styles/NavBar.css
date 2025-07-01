@@ -1,9 +1,9 @@
 nav {
   width: 220px;
-  background-color: #000; /* black background */
+  background-color: #000;
   color: white;
   padding: 20px 15px;
-  height: 100vh; /* full viewport height */
+  height: 100vh;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -40,11 +40,11 @@ li a {
   font-size: 18px;
   display: block;
   padding: 8px 12px;
-  border-radius: 9999px; /* pill shape */
+  border-radius: 9999px;
   transition: background-color 0.2s ease;
 }
 
 li a:hover {
-  background-color: #1da1f2; /* X brand blue hover */
+  background-color: #1da1f2;
   color: white;
 }
